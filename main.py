@@ -20,7 +20,7 @@ app = FastAPI(
 )
 
 # Serve static files for UI (CSS, JS)
-app.mount("/static", StaticFiles(directory="static"), name="static")
+#app.mount("/static", StaticFiles(directory="static"), name="static")
 
 # Supported image formats
 SUPPORTED_FORMATS = {".jpg", ".jpeg", ".png", ".bmp", ".tiff", ".webp"}
